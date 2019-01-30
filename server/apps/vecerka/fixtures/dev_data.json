@@ -1,0 +1,24 @@
+[
+{
+  "model": "vecerka.Marker",
+  "pk": 1,
+    "fields": {
+    "longitude": 14.44893,
+    "latitude": 50.07913,
+    "title": "Vecerka Ondrickova",
+    "description": "Vecerka Ondrickova",
+    "photo": "fotky_vecerek/c82ab4f1-5500-470e-bbcf-d79a601f25d6.jpeg"
+  }
+},
+{
+  "model": "vecerka.Marker",
+  "pk": 2,
+    "fields": {
+    "longitude": 14.45817,
+    "latitude": 50.07880,
+    "title": "Vecerka Lucemburska",
+    "description": "Vecerka Lucemburska",
+    "photo": "fotky_vecerek/c82ab4f1-5500-470e-bbcf-d79a601f25d6.jpeg"
+  }
+}
+]

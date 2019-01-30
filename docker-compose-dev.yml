@@ -1,0 +1,29 @@
+version: "3"
+
+volumes:
+  postgres-data:
+
+services:
+  server:
+    image: vecerka-server
+    container_name: vecerka-server
+    command: sh
+    tty: true
+    user: "1000:1000"
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+
+  postgres:
+    image: postgres:9.6
+    container_name: vecerka-postgres
+    volumes:
+    - postgres-data:/var/lib/postgresql
+    environment:
+      POSTGRES_PASSWORD: webuser
+      POSTGRES_USER: webuser
+      POSTGRES_DB: webapp
+    ports:
+    - "5432:5432"

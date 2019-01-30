@@ -1,0 +1,9 @@
+Django==1.11.2
+djangorestframework==3.6.3
+django-extensions==2.1.4
+psycopg2==2.7.1
+anyjson==0.3.3
+CairoSVG==1.0.18
+Pillow
+
+

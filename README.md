@@ -1,9 +1,9 @@
 # Prague Vecerkas
 
 Vecerka is small asian shop with various stuff, that are all around Prague and are opened long hours.
-App for getting list of Prague vecerkas so that user can view the markers with various vecerkas on the Map. 
-User can also add his new vecerka by taking photo of vecerka. After processing the data by server the user will see 
-that his vecerka was added on the map as another marker.
+Prague Vecerkas is the mobile app for retrieving list of Prague vecerkas and displaying them on the Map as markers. 
+User can also add his new vecerka by taking photo of vecerka in real life. After processing the data by server the user
+will see that his vecerka was added on the map as another marker.
 
 ### Installing server environment using Dockerfile
 
